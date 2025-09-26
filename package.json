@@ -4,8 +4,9 @@
   "description": "API for monitoring NFT status changes and movements.",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
-  },
+  "start": "node server.js",
+  "start:snapshot": "node snapshot.js"
+},
   "dependencies": {
     "express": "^4.18.2",
     "sqlite3": "^5.1.6"
